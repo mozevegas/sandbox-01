@@ -8,20 +8,27 @@ h1 {
   font-size: 50px;
 }
 
-.boxy {
-  width: 470px;
-  height: 527px;
-  background-color: red;
-  border: 1px solid #222;
+.catalog {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
+.boxy {
+  width: 470px;
+  height: 527px;
+  /*background-color: red;*/
+  border-bottom: 1px solid #222;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 20px 40px 20px;
+}
+
 .catimage {
   width: 450px;
   height: 450px;
-  background-color: lightgray;
+  background-color: ghostwhite;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -30,23 +37,23 @@ h1 {
 }
 
 .info {
-  background-color: yellow;
+  /*background-color: yellow;*/
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 450px;
 }
 
-.number {
+/*.number {
   background-color: cornflowerblue;
-}
+}*/
 
 .author {
   width: 300px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  background-color: lawngreen;
+  /*background-color: lawngreen;*/
 }
 
 .title {
