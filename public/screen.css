@@ -1,61 +1,38 @@
-body {
-  margin: 0;
-  font-size: 16px;
+
+header {
+  background-color: #f6f5f6;
+}
+
+header nav {
+  font-size: 14px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-h1 {
-  font-size: 50px;
-}
-
-.catalog {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.boxy {
-  width: 470px;
-  height: 527px;
-  /*background-color: red;*/
-  border-bottom: 1px solid #222;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: 20px 20px 40px 20px;
-}
-
-.catimage {
-  width: 450px;
-  height: 450px;
-  background-color: ghostwhite;
   display: flex;
   align-items: center;
-  justify-content: center;
-  border-radius: 3px;
-  border: 1px solid #888;
+  max-width: 800px;
+  padding: 1em;
+  margin: auto;
 }
 
-.info {
-  /*background-color: yellow;*/
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 450px;
-}
 
-/*.number {
-  background-color: cornflowerblue;
-}*/
-
-.author {
-  width: 300px;
+header ul {
+  list-style: none;
+  padding-left: 0;
   display: flex;
-  align-items: center;
   justify-content: flex-end;
-  /*background-color: lawngreen;*/
+  flex: 1;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 0;
 }
 
-.title {
-  padding-right: 5px;
+header li {
+  padding-left: 2em;
+}
+
+@media (max-width: 420px) {
+
+header ul {
+  flex-direction: column;
+}
+
 }
